@@ -1,0 +1,1087 @@
+@font-face {
+	font-family: 'Montserrat Regular'; 
+	src: url(fonts/Montserrat-Regular.ttf); 
+}
+@font-face {
+	font-family: 'Montserrat Medium'; 
+	src: url(fonts/Montserrat-Medium.ttf); 
+}
+@font-face {
+	font-family: 'Inter Light'; 
+	src: url(fonts/Inter-Light.ttf); 
+}
+@font-face {
+	font-family: 'Inter Regular'; 
+	src: url(fonts/Inter-Regular.ttf); 
+}
+@font-face {
+	font-family: 'Inter Medium'; 
+	src: url(fonts/Inter-Medium.ttf); 
+}
+@font-face {
+	font-family: 'Inter SemiBold'; 
+	src: url(fonts/Inter-SemiBold.ttf); 
+}
+@font-face {
+	font-family: 'Inter Bold'; 
+	src: url(fonts/Inter-Bold.ttf); 
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 1920px;
+}
+header {
+    width: 1366px;
+    height: 115px;
+    padding-left: 277px;
+    display: flex;
+}
+.logo {
+    margin-left: 71px;
+    margin-top: 17px;
+    width: 201px;
+    height: 78px;
+}
+.logo p {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Inter SemiBold';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: -2%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+    margin-left: 15px;
+}
+.logo img {
+    width: 201px;
+    height: 62px;
+}
+.contact {
+    margin-left: 163px;
+    margin-top: 24px;
+    width: 272px;
+    height: 69px;
+}
+.contact p {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Inter Regular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: right;
+    margin-bottom: 8px;
+}
+.sinii {
+    color: rgb(33, 40, 100);
+    font-family: 'Inter Regular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: right;
+    margin-left: 6px;
+}
+.nomer {
+    margin-left: 115px;
+    margin-top: 29px;
+}
+.nomer p {
+    color: rgb(33, 40, 100);
+    font-family: 'Inter Bold';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.knopka {
+    margin-left: 113px;
+    margin-top: 20px;
+    width: 200px;
+    height: 77px;
+}
+.knopka button {
+    box-sizing: border-box;
+    border: 1px solid rgb(33, 40, 100);
+    border-radius: 25px;
+    width: 200px;
+    height: 42px;
+    background: white;
+    margin-bottom: 8px;
+}
+.knopka button a {
+    color: rgb(33, 40, 100);
+    font-family: 'Inter Bold';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.knopka img {
+    margin-left: 11px;
+}
+nav {
+    width: 1366px;
+    height: 102px;
+    padding-left: 277px;
+}
+.fiolet {
+    background: rgb(21, 25, 61);
+    height: 57px;
+}
+.fiolet .str_fio {
+    width: 1164px;
+    height: 17px;
+    padding: 18px 0 0 90px;
+    display: flex;
+    gap: 128px;
+}
+.fiolet .str_fio a {
+    color: rgb(255, 255, 255);
+    font-family: 'Inter Medium';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+.fiolet .str_fio a:hover {
+    color: rgb(255, 194, 57);
+    font-family: 'Inter Bold';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.seren {
+    background: rgb(140, 147, 209);
+    height: 45px;
+}
+.seren .str_ser {
+    width: 1164px;
+    height: 17px;
+    padding: 13px 0 0 90px;
+    display: flex;
+    gap: 128px;
+}
+.seren .str_ser a {
+    color: rgb(255, 255, 255);
+    font-family: 'Inter Medium';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+.conteiner_1 {
+    background-image: url(img/Rectangle\ 1.png);
+    width: 1366px;
+    height: 551px;
+    margin-left: 277px;
+}
+.temno {
+    background: rgba(0, 0, 0, 0.35);
+    width: 1366px;
+    height: 551px;
+}
+.temno h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Inter Bold';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 875px;
+    height: 110px;
+    padding-top: 68px;
+    padding-left: 89px;
+}
+.temno p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Montserrat Medium';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 472px;
+    height: 80px;
+    padding-top: 16px;
+    padding-left: 90px;
+}
+.stoimost {
+    display: flex;
+    gap: 24px;
+    width: 311px;
+    height: 70px;
+    padding-top: 46px;
+    padding-left: 89px;
+}
+.stoimost img {
+    width: 70px;
+    height: 70px;
+}
+.stoimost a {
+    color: rgb(255, 255, 255);
+    font-family: 'Inter Medium';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 26px;
+    text-decoration: none;
+}
+.predlozhenia {
+    width: 1366px;
+    height: 822px;
+    margin-left: 277px;
+}
+.predlozhenia h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Inter Bold';
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 500px;
+    height: 51px;
+    padding-top: 88px;
+    padding-left: 83px;
+}
+.knopki {
+    display: flex;
+    gap: 11px;
+    margin-left: 83px;
+    margin-top: 32px;
+}
+.knopki button {
+    padding: 12px 35px 12px 35px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(238, 238, 238);
+    border: 2px rgb(238, 238, 238);
+}
+.knopki button a {
+    color: rgb(33, 40, 100);
+    font-family: 'Inter SemiBold';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+.knopki button:hover {
+    background: rgb(255, 194, 57);
+    border-radius: 25px;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+    border: 2px rgb(255, 194, 57);
+}
+.doma {
+    display: flex;
+}
+.levo {
+    width: 13px;
+    height: 39px;
+    margin-top: 190px;
+    margin-right: 23px;
+}
+.pravo {
+    width: 13px;
+    height: 39px;
+    margin-top: 190px;
+    margin-left: 23px;
+}
+.domiki {
+    display: flex;
+    gap: 21px;
+    margin-top: 32px;
+}
+.domm {
+    width: 284px;
+    height: 355px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 33px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+}
+.dom {
+    color: rgb(0, 0, 0);
+    font-family: 'Inter Bold';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 243px;
+    height: 38px;
+    margin-top: 18px;
+    margin-left: 21px;
+}
+.razmer {
+    display: flex;
+    width: 260px;
+    height: 15px;
+}
+.razmer p {
+    margin-top: 17px;
+    margin-left: 21px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Inter Regular';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.razmer-info {
+    margin-left: 153px;
+}
+.ploshad {
+    display: flex;
+    width: 270px;
+    height: 15px;
+}
+.ploshad p {
+    margin-top: 17px;
+    margin-left: 21px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Inter Regular';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.ploshad-info {
+    margin-left: 142px;
+}
+.col {
+    display: flex;
+    width: 270px;
+    height: 15px;
+}
+.col p {
+    margin-top: 25px;
+    margin-left: 21px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Inter Regular';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.room-info {
+    margin-left: 81px;
+}
+.cena {
+    color: rgb(0, 0, 0);
+    font-family: 'Inter Bold';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 22px;
+    margin-top: 50px;
+}
+.vse {
+    width: 310px;
+    height: 60px;
+    border-radius: 30px;
+    background: rgb(53, 61, 131);
+    border: 2px rgb(53, 61, 131);
+    margin-top: 32px;
+    margin-left: 518px;
+}
+.vse a {
+    color: rgb(255, 255, 255);
+    font-family: 'Inter Medium';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.kapital {
+    width: 1366px;
+    height: 461px;
+    background: rgb(241, 241, 246);
+    margin-left: 277px;
+    display: flex;
+}
+.text p {
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    font-family: 'Inter Regular';
+    font-size: 38px;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.bold-text {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: 'Inter Bold';
+    font-size: 38px;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.text {
+    width: 496px;
+    height: 84px;
+    margin-top: 79px;
+    margin-left: 62px;
+}
+.text img {
+    margin-top: 52px;
+}
+.les {
+    background-image: url(img/image\ 62.png);
+    width: 1366px;
+    height: 1205px;
+    margin-left: 277px;
+}
+.preimushestva {
+    width: 1366px;
+    height: 907px;
+    background: rgba(246, 246, 249, 0.8);
+}
+.preimushestva h1 {
+    color: rgb(32, 32, 32);
+    font-family: 'Inter Bold';
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 84px;
+    padding-left: 89px;
+}
+.kolonki {
+    display: flex;
+    gap: 20px;
+}
+.levo_les {
+    margin-top: 51px;
+    margin-left: 89px;
+}
+.pravo_les {
+    margin-top: 51px;
+}
+.dogovor {
+    width: 590px;
+    height: 146px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 13px 0px rgba(0, 0, 0, 0.15);
+    background: rgba(255, 255, 255, 0.95);
+    display: flex;
+    margin-bottom: 15px;
+}
+.dogovor_text h3 {
+    color: rgb(0, 0, 0);
+    font-family: 'Inter Medium';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 400px;
+    margin-top: 36px;
+    margin-left: 44px;
+}
+.dogovor_text p {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Montserrat Regular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 400px;
+    margin-top: 17px;
+    margin-left: 44px;
+}
+.gruppa {
+    width: 1367px;
+    height: 377px;
+    backdrop-filter: blur(8px);
+    background: rgba(246, 246, 249, 0.9);
+    display: flex;
+    margin-left: 277px;
+}
+.gruppa_text h2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Inter Regular';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 609px;
+    height: 72px;
+    margin-top: 111px;
+    margin-left: 89px;
+}
+.zhirnii {
+    color: rgb(0, 0, 0);
+    font-family: 'Inter Bold';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.gruppa_text p {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Montserrat Regular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 488px;
+    height: 34px;
+    margin-top: 28px;
+    margin-left: 89px;
+}
+.gruppa button {
+    width: 414px;
+    height: 65px;
+    border-radius: 30px;
+    background: rgb(53, 61, 131);
+    border: 2px rgb(53, 61, 131);
+    margin-top: 156px;
+    margin-left: 121px;
+}
+.gruppa button a {
+    color: rgb(255, 255, 255);
+    font-family: 'Inter Bold';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.plan {
+    width: 1366px;
+    height: 768px;
+    background: rgb(196, 196, 196);
+    display: flex;
+    margin-left: 277px;
+}
+.domik {
+    width: 578px;
+    height: 388px;
+    margin-top: 179px;
+    margin-left: 89px;
+}
+.plan_text h2 {
+    width: 433px;
+    height: 108px;
+    margin-top: 179px;
+    margin-left: 53px;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat Regular';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.zhirnii_2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Inter Bold';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.plan_text p {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Montserrat Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 490px;
+    height: 95px;
+    margin-top: 26px;
+    margin-left: 56px;
+}
+.svaz {
+    width: 143px;
+    height: 143px;
+    margin-top: 45px;
+    margin-left: 403px;
+}
+.otzivi {
+    width: 1366px;
+    height: 768px;
+    background: rgb(241, 241, 246);
+    display: flex;
+    margin-left: 277px;
+}
+.strelka_levo {
+    width: 28px;
+    height: 75px;
+    margin-top: 308px;
+    margin-left: 304px;
+}
+.strelka_pravo {
+    width: 28px;
+    height: 75px;
+    margin-top: 308px;
+    margin-right: 304px;
+}
+.glav_otziv {
+    width: 559px;
+    height: 691px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 2px 8px 26px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.otziv {
+    display: flex;
+    margin-top: 72px;
+    margin-left: 223px;
+    gap: 15px;
+}
+.otziv p {
+    color: rgb(128, 128, 128);
+    font-family: 'Inter Bold';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.jon {
+    color: rgb(0, 0, 0);
+    font-family: 'Inter Bold';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 88px;
+    margin-left: 180px;
+}
+.star {
+    width: 125px;
+    height: 24px;
+    margin-top: 15px;
+    margin-left: 217px;
+}
+.lorem {
+    color: rgb(51, 51, 51);
+    font-family: 'Montserrat Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 435px;
+    height: 215.29px;
+    margin-top: 36px;
+    margin-left: 62px;
+}
+.line {
+    margin-top: 39px;
+    margin-left: 261px;
+}
+.izgot {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Inter Light';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 27px;
+    margin-left: 189px;
+    width: 181px;
+    height: 34px;
+}
+.karti {
+    background-image: url(img/Rectangle\ 612.png);
+    width: 1366px;
+    height: 768px;
+    display: flex;
+    margin-left: 277px;
+}
+.karti_kartochka {
+    width: 581px;
+    height: 639px;
+    border-radius: 0px 0px 20px 20px;
+    backdrop-filter: blur(13px);
+    background: rgba(255, 255, 255, 0.7);
+    margin-left: 122px;
+}
+.karti_kartochka h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Inter Bold';
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 92px;
+    padding-left: 64px;
+}
+.adres h3 {
+    color: rgb(0, 0, 0);
+    font-family: 'Inter Bold';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 34px;
+    margin-left: 64px;
+    margin-bottom: 15px;
+}
+.adresa p {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Inter Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 9px;
+    margin-left: 64px;
+}
+.kontakti h3 {
+    color: rgb(0, 0, 0);
+    font-family: 'Inter Bold';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 81px;
+    margin-left: 64px;
+    margin-bottom: 19px;
+}
+.nomera p {
+    color: rgb(0, 0, 0);
+    font-family: 'Inter Bold';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 64px;
+}
+.kon {
+    display: flex;
+}
+.socseti p {
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat Medium';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 14px
+}
+.socseti {
+    margin-left: 83px;
+}
+.karti_kartochka button {
+    width: 250px;
+    height: 55px;
+    background: rgb(255, 194, 57);
+    border-radius: 30px;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+    border: 2px rgb(255, 194, 57);
+    margin-top: 68px;
+    margin-left: 64px;
+}
+.karti_kartochka button a {
+    color: rgb(33, 40, 100);
+    font-family: 'Inter SemiBold';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.tochka {
+    width: 66px;
+    height: 83.88px;
+    margin-top: 280px;
+    margin-left: 321px;
+}
+footer {
+    width: 1366px;
+    height: 670px;
+    margin-left: 277px;
+    background: rgb(34, 36, 46);
+}
+.conteiner2 {
+    display: flex;
+}
+.logo2 {
+    width: 192px;
+    height: 76px;
+    margin-top: 64px;
+    margin-left: 72px;
+}
+.logo2 p {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: 'Inter Medium';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 2%;
+    text-align: left;
+    margin-left: 6px;
+}
+.contact2 p {
+    color: rgb(255, 255, 255);
+    font-family: 'Inter Regular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.contact2 {
+    width: 272px;
+    height: 69px;
+    margin-top: 74px;
+    margin-left: 159px;
+}
+.nomer2 p {
+    color: rgb(255, 255, 255);
+    font-family: 'Inter Bold';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.nomer2 {
+    width: 160px;
+    height: 46px;
+    margin-top: 76px;
+    margin-left: 70px;
+}
+.knopka2 h3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Inter Bold';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+.knopka2 {
+    margin-top: 76px;
+    margin-left: 108px;
+}
+.footer_line {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    width: 1250px;
+    margin-left: 58px;
+    margin-top: 76px;
+}
+.chtoto {
+    display: flex;
+    margin-top: 40px;
+}
+.product {
+    margin-left: 72px;
+}
+.product h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Inter SemiBold';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 29px;
+}
+.product p {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat Medium';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 18px;
+}
+.complect {
+    margin-left: 104px;
+}
+.complect h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Inter SemiBold';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 29px;
+}
+.complect p {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat Medium';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 18px;
+}
+.zakazchiky {
+    margin-left: 97px;
+}
+.zakazchiky h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Inter SemiBold';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 29px;
+}
+.zakazchiky p {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat Medium';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 18px;
+}
+.polezno {
+    margin-left: 71px;
+}
+.polezno h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Inter SemiBold';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 29px;
+}
+.polezno p {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat Medium';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 18px;
+}
+.knopochki .calcu {
+    width: 250px;
+    height: 74px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 194, 57);
+    border-radius: 37px;
+    background: none;
+}
+.knopochki .calcu a {
+    color: rgb(255, 194, 57);
+    font-family: 'Inter Bold';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+}
+.knopochki .snami {
+    width: 249px;
+    height: 49px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 194, 57);
+    border-radius: 37px;
+    background: none;
+    margin-top: 14px;
+}
+.knopochki .snami a {
+    color: rgb(255, 194, 57);
+    font-family: 'Inter Bold';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+}
+.knopochki {
+    padding-left: 220px;
+}
+.footer_line2 {
+    width: 1366px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    margin-top: 80px;
+}
+.podval p {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat Regular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.podval {
+    display: flex;
+    margin-top: 17px;
+    margin-left: 52px;
+}
+.str_podvala {
+    display: flex;
+    gap: 32px;
+    margin-left: 268px;
+}
